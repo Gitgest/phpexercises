@@ -44,12 +44,13 @@ $info = array
 
 );
 
-echo "<br><br>username: " . $info[0][0] . "Password: " . $info[0][1] . "<br>";
-echo "<br>username: " . $info[1][0] . "Password: " . $info[1][1] . "<br>";
+echo "<br><br>username: " . $info[0][0] . " Password: " . $info[0][1] . "<br>";
+echo "<br>username: " . $info[1][0] . " Password: " . $info[1][1] . "<br>";
 
 $fetchName = $_GET['username'];
 $fetchPass = $_GET['password'];
 
-if ($fetchName.)
+//isset() checks if a variable is set and not null
+if (isset($fetchName))
 
 ?>
