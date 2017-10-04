@@ -1,0 +1,1 @@
+Place index.php in C:\MAMP\htdocs for use.
